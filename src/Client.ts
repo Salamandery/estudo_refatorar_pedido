@@ -1,9 +1,9 @@
 export default class Client {
-    nome: string;
+    name: string;
     cpf: string;
 
-    constructor (nome: string, cpf: string) {
-        this.nome = nome;
+    constructor (name: string, cpf: string) {
+        this.name = name;
         this.cpf = cpf;
     }
 
@@ -12,6 +12,6 @@ export default class Client {
     }
 
     getNome(): string {
-        return this.nome;
+        return this.name;
     }
 }
