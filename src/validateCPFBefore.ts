@@ -1,4 +1,4 @@
-function validate(str) {
+function validate(str: string) {
 
 	if (str !== null) {
         if (str !== undefined) {

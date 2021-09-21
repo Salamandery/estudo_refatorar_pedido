@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.validateCPF = void 0;
 const FACTOR_DIGIT_1 = 10;
 const FACTOR_DIGIT_2 = 11;
 const MAX_DIGITS_1 = 9;
@@ -14,7 +16,7 @@ function stringToNumberArray(cpf) {
 }
 function ifAllNumberAreEquals(cpf) {
     const [digit1] = cpf;
-    return cpf.split("").every(c => c === digit1);
+    return cpf.split("").every((digit) => digit === digit1);
 }
 function getCheckDigit(cpf) {
     return cpf.slice(9);
@@ -41,6 +43,4 @@ function validateCPF(cpf) {
     const cpfCalculated = `${digit1}${digit2}`;
     return cpfCalculated == getCheckDigit(cpf);
 }
-console.log(validateCPF("111.111.111-11"));
-console.log(validateCPF("123.456.789-99"));
-console.log(validateCPF("935.411.347-80"));
+exports.validateCPF = validateCPF;
