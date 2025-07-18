@@ -1,8 +1,10 @@
 # Pedido Refatorado / Refactored Order
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.4.3-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Jest](https://img.shields.io/badge/tested%20with-jest-15c213?logo=jest)](https://jestjs.io/)
-[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-4.4.3-3178C6?style=for-the-badge&logo=typescript"/>
+  <img src="https://img.shields.io/badge/Jest-tested-15c213?style=for-the-badge&logo=jest"/>
+  <img src="https://img.shields.io/badge/License-ISC-yellow.svg?style=for-the-badge"/>
+</p>
 
 <div align="center">
   <b>🇧🇷 Português | <a href="#english-version">🇺🇸 English below</a></b>
