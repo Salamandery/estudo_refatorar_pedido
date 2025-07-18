@@ -4,18 +4,59 @@
 [![Jest](https://img.shields.io/badge/tested%20with-jest-15c213?logo=jest)](https://jestjs.io/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
 
+<div align="center">
+  <b>🇧🇷 Português | <a href="#english-version">🇺🇸 English below</a></b>
+</div>
+
 ---
 
-## 🇧🇷 Projeto
+## 📑 Sumário | Table of Contents
+- [Sobre o Projeto | About](#sobre-o-projeto--about)
+- [Tecnologias | Technologies](#tecnologias--technologies)
+- [Estrutura | Structure](#estrutura--structure)
+- [Instalação e Execução | Setup & Run](#instalação-e-execução--setup--run)
+- [Autor | Author](#autor--author)
 
-Este projeto é um estudo de refatoração e modelagem de um sistema de pedidos, clientes e produtos, com foco em validação de CPF utilizando TDD (Test Driven Development) em TypeScript.
+---
 
-### Funcionalidades principais
-- Modelagem de entidades: `Client`, `Product`, `Order`.
-- Validação de CPF (Cadastro de Pessoa Física) com testes automatizados.
-- Exemplo de refatoração de código legado para código limpo e testável.
+## Sobre o Projeto | About
 
-### Como rodar
+**PT-BR:**
+> Projeto de estudo e refatoração de um sistema de pedidos, clientes e produtos, com foco em validação de CPF utilizando TDD (Test Driven Development) em TypeScript.
+
+**EN:**
+> Study and refactoring project of an order, client, and product system, focusing on CPF (Brazilian ID) validation using TDD (Test Driven Development) in TypeScript.
+
+---
+
+## 🚀 Tecnologias | Technologies
+
+- [TypeScript](https://www.typescriptlang.org/): Tipagem estática para JavaScript.
+- [Jest](https://jestjs.io/): Testes automatizados.
+
+---
+
+## 🗂️ Estrutura | Structure
+```
+estudo_refatorar_pedido/
+├── src/
+│   ├── Client.ts
+│   ├── Order.ts
+│   ├── Product.ts
+│   ├── validateCPF.ts
+│   ├── validateCPF.test.ts
+│   └── validateCPFBefore.ts
+├── package.json
+├── tsconfig.json
+├── README.md
+└── ...
+```
+
+---
+
+## ⚙️ Instalação e Execução | Setup & Run
+
+**PT-BR:**
 1. Instale as dependências:
    ```bash
    npm install
@@ -29,22 +70,7 @@ Este projeto é um estudo de refatoração e modelagem de um sistema de pedidos,
    npm test
    ```
 
-### Feito com
-- [TypeScript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/)
-
----
-
-## 🇺🇸 Project
-
-This project is a study in refactoring and modeling an order system with clients and products, focusing on CPF (Brazilian ID) validation using TDD (Test Driven Development) in TypeScript.
-
-### Main features
-- Entity modeling: `Client`, `Product`, `Order`.
-- CPF (Brazilian ID) validation with automated tests.
-- Example of refactoring legacy code to clean, testable code.
-
-### How to run
+**EN:**
 1. Install dependencies:
    ```bash
    npm install
@@ -57,10 +83,6 @@ This project is a study in refactoring and modeling an order system with clients
    ```bash
    npm test
    ```
-
-### Made with
-- [TypeScript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/)
 
 ---
 
